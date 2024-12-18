@@ -2,7 +2,7 @@
 AirCanvas: A Real-Time Hand Tracking Paint App
 AirCanvas is an interactive Python application that leverages hand tracking to create a virtual painting experience. By using a webcam (or EpocCam) and the power of MediaPipe, users can control their paintbrush with their fingertips, drawing and creating art in real-time.
 
-Features
+Features:
 
 1. Hand Tracking: Utilizes MediaPipe's hand detection model to accurately track hand movements and translate them into brush strokes.
 2. Multi-Color Painting: Supports four distinct colors (blue, green, red, and yellow) for versatile drawing.
@@ -24,8 +24,8 @@ Run pip install -r requirements.txt (if you don't have a requirements.txt file, 
 Run the application:
 
 Execute python AirCanvas.py from your terminal.
-Usage
 
+Usage:
 Open AirCanvas.
 Point your hand at the webcam (or EpocCam).
 Move your index finger around the screen to draw.
@@ -37,14 +37,14 @@ AirCanvas leverages the following libraries:
 OpenCV: For computer vision tasks like frame capture and image manipulation.
 NumPy: For numerical computations and array handling.
 MediaPipe: Enables real-time hand detection and landmark tracking.
-Customization
 
+Customization:
 You can experiment with different brush sizes, line styles, and color palettes by modifying the code within the AirCanvas.py file.
-Future Enhancements
 
+Future Enhancements:
 Implement additional drawing tools (e.g., eraser, shapes).
 Explore options for saving and exporting artwork.
 Integrate gesture recognition for more advanced controls.
-Contributing
 
+Contributing:
 We welcome contributions to the AirCanvas project! Feel free to fork the repository, make your changes, and submit a pull request.
